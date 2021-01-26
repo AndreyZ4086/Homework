@@ -1,0 +1,68 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+h2 {
+	color: blue;
+}
+.culture h2 {
+	color: red;
+}
+span {
+	color: orange;
+	color: green;
+}
+.netflix span {
+	color: pink;
+}
+#dedline {
+	color: darkmagenta;
+}
+p {
+	color: yellow;
+}
+.business {
+	color: violet;
+}
+p span {
+	color: chocolate;
+}
+.konor > p {
+	color: red;
+}
+.paragraph + p {
+	color: black;
+}
+.godzilla__article ~ p {
+	color: darkcyan;
+}
+p {
+	color: darkgreen;
+}
